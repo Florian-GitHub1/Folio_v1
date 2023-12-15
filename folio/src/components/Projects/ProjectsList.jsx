@@ -6,7 +6,7 @@ import './Projects.scss';
 function ProjectsList() {
 	const projectsData = ProjectsData.map((project) => {
 		return (
-			<NavLink to={`${project.id}`} className='project'>
+			<NavLink to={`${project.id}`} key={project.key} className='project'>
 				<h4>{project.title}</h4>
 				<h4>/ {project.date}</h4>
 			</NavLink>
