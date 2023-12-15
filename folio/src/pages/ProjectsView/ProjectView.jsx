@@ -1,7 +1,5 @@
 import React from 'react';
 
-import transition from '../../transition';
-
 import './ProjectView.scss';
 
 const ProjectView = () => {
@@ -13,4 +11,4 @@ const ProjectView = () => {
 	);
 };
 
-export default transition(ProjectView);
+export default ProjectView;

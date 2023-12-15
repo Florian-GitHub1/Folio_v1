@@ -2,7 +2,7 @@ import './Hero.scss';
 
 function Hero() {
 	return (
-		<div className='hero'>
+		<section className='hero' id='home'>
 			<div className='hero-content'>
 				<div className='hero-text'>
 					<div className='hero-align-left'>
@@ -29,7 +29,7 @@ function Hero() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }
 

@@ -3,7 +3,7 @@ import './About.scss';
 
 function About() {
 	return (
-		<div className='about-container'>
+		<div className='about-container' id='apropos'>
 			<div className='about'>
 				<p>
 					<span className='hey'>Hey!</span> Je suis <span className='name'>Florian</span>, <br />

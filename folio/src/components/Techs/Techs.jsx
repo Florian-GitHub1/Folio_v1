@@ -3,7 +3,7 @@ import './Techs.scss';
 
 function Techs() {
 	return (
-		<div className='techs-container'>
+		<section className='techs-container'>
 			<div className='techs'>
 				<p>
 					Je <span className='work'>travail principalement sur </span> <span className='name'>React</span>, <br />
@@ -12,7 +12,7 @@ function Techs() {
 				</p>
 			</div>
 			<Infos />
-		</div>
+		</section>
 	);
 }
 

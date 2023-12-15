@@ -3,7 +3,7 @@ import './Contact.scss';
 
 function Contact() {
 	return (
-		<div className='contact-container'>
+		<section className='contact-container' id='contact'>
 			<div className='contact'>
 				<svg width={155} height={119} viewBox='0 0 155 119' fill='none' xmlns='http://www.w3.org/2000/svg'>
 					<g style={{ mixBlendMode: 'difference' }}>
@@ -15,7 +15,7 @@ function Contact() {
 				</a>
 			</div>
 			<Infos />
-		</div>
+		</section>
 	);
 }
 

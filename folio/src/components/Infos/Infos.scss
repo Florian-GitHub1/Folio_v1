@@ -3,12 +3,6 @@
 .infos {
 	position: absolute;
 	bottom: 40px;
-	@media (max-width: 800px) {
-	}
-	.links {
-		display: flex;
-		justify-content: space-between;
-	}
 	a {
 		font-family: 'Studio', sans-serif;
 		font-weight: 100;

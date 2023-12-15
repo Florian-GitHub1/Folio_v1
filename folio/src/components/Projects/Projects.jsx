@@ -4,7 +4,7 @@ import './Projects.scss';
 
 function Projects() {
 	return (
-		<>
+		<section id='projets'>
 			<div className='project-preview-background'>
 				<div className='project-preview-container'>
 					<h3 className='project-preview-title1'>Projects</h3>
@@ -14,7 +14,7 @@ function Projects() {
 			<div className='projects-list-container'>
 				<ProjectsList />
 			</div>
-		</>
+		</section>
 	);
 }
 

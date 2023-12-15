@@ -1,5 +1,3 @@
-import transition from '../../transition';
-
 import SmoothScroll from '../../components/smoothScroll';
 import Hero from '../../components/Hero/Hero';
 import Projects from '../../components/Projects/Projects';
@@ -24,4 +22,4 @@ function Home() {
 	);
 }
 
-export default transition(Home);
+export default Home;
