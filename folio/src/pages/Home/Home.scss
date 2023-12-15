@@ -1,0 +1,58 @@
+@import '../../style//variables';
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	color: $primary-color;
+	background-color: $background;
+}
+
+@font-face {
+	font-family: 'Studio';
+	src: url(../../fonts/StudioSans.woff2) format('woff2-variations');
+	font-weight: 100 900;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'FrauncesItal';
+	src: url('../../fonts//FrauncesItalicVariableFont.ttf');
+}
+@font-face {
+	font-family: 'Fraunces';
+	src: url('../../fonts//FrauncesVariableFont.ttf');
+}
+.noise {
+	position: fixed;
+	z-index: 9999;
+	height: 100%;
+	width: 100%;
+	background-image: url('../../assets//noise.png');
+	background-size: 200px;
+	background-repeat: repeat;
+	opacity: 0.2;
+	pointer-events: none;
+}
+html,
+body {
+	overflow-x: hidden;
+}
+body {
+	font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+::-moz-selection {
+	/* Code for Firefox */
+	color: $secondary-color;
+	background: $accent-color;
+}
+::selection {
+	color: $secondary-color;
+	background: $accent-color;
+}

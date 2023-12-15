@@ -1,0 +1,46 @@
+@import '../../style/variables';
+
+.contact-container {
+	width: 100vw;
+	height: 100vh;
+	padding: 0 4vw;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	position: relative;
+	@media (max-width: 1140px) {
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+	@media (max-width: 800px) {
+		padding: 0 8vw;
+		text-align: center;
+	}
+	.contact {
+		display: flex;
+		align-items: center;
+		@media (max-width: 1140px) {
+			flex-direction: column-reverse;
+			justify-content: center;
+		}
+		@media (max-width: 800px) {
+		}
+		svg {
+			margin: 0 2vw 0 0;
+			@media (max-width: 800px) {
+				width: 80px;
+				height: 80px;
+			}
+		}
+		.contact-me {
+			font-weight: 800;
+			font-size: clamp(2.5rem, 0.9286rem + 7.8571vw, 8rem);
+			text-transform: uppercase;
+			text-decoration: none;
+			color: $primary-color;
+		}
+		.depo {
+			color: $secondary-color;
+		}
+	}
+}

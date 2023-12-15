@@ -1,0 +1,31 @@
+@import '../../style/variables';
+
+.header-content {
+	padding: 0px 4vw;
+	position: fixed;
+	width: 100vw;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	-webkit-box-pack: justify;
+	justify-content: space-between;
+	top: 40px;
+	z-index: 100;
+	mix-blend-mode: difference;
+	@media (max-width: 800px) {
+		padding: 0px 8vw;
+		top: 20px;
+	}
+	.left-part,
+	.right-part {
+		cursor: pointer;
+	}
+	.left-part svg {
+		fill: $secondary-color;
+	}
+	.right-part svg {
+		fill: none;
+		stroke: $primary-color;
+		stroke-width: 2px;
+	}
+}

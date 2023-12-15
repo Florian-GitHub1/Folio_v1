@@ -1,0 +1,53 @@
+@import '../../style/variables';
+
+.about-container {
+	width: 100vw;
+	height: 100vh;
+	padding: 0 4vw;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	position: relative;
+	@media (max-width: 800px) {
+		padding: 0 8vw;
+		text-align: center;
+		justify-content: center;
+	}
+	.about {
+		padding-bottom: 6vw;
+		@media (max-width: 800px) {
+		}
+		p {
+			font-size: clamp(2rem, 0.5714rem + 7.1429vw, 7rem);
+			font-weight: 300;
+			.hey {
+				font-weight: 200;
+				font-family: 'FrauncesItal';
+				text-transform: uppercase;
+			}
+			.name {
+				font-weight: 800;
+				font-family: 'FrauncesItal';
+				color: $secondary-color;
+			}
+			.job {
+				font-weight: 600;
+				font-family: 'Fraunces';
+			}
+			.age {
+				font-weight: 800;
+				font-family: 'FrauncesItal';
+				color: $secondary-color;
+			}
+			.currently {
+				font-weight: 100;
+				font-family: 'Fraunces';
+			}
+			.country {
+				font-weight: 800;
+				font-family: 'FrauncesItal';
+				color: $secondary-color;
+			}
+		}
+	}
+}

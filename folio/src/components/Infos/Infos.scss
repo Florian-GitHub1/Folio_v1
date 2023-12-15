@@ -1,0 +1,22 @@
+@import '../../style/variables';
+
+.infos {
+	position: absolute;
+	bottom: 40px;
+	@media (max-width: 800px) {
+	}
+	.links {
+		display: flex;
+		justify-content: space-between;
+	}
+	a {
+		font-family: 'Studio', sans-serif;
+		font-weight: 100;
+		text-transform: uppercase;
+		color: $primary-color;
+		text-decoration: none;
+		&:nth-of-type(2) {
+			padding: 0 4vw;
+		}
+	}
+}

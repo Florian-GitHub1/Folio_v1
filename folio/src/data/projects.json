@@ -1,0 +1,23 @@
+[
+	{
+		"id": "ohmyfood",
+		"title": "Ohmyfood",
+		"date": "2023",
+		"description": "Intégration d'un site en 'mobile first' (mobile, tablette puis desktop) qui répertorie les menus de restaurants gastronomiques et mise en place d'animations.",
+		"technos": "HTML, CSS, Sass"
+	},
+	{
+		"id": "kasa",
+		"title": "Kasa",
+		"date": "2023",
+		"description": "Développement d'une application de location d'appartements à l'aide de React en utilisant les composants, les routes React Router, en suivant les maquettes Figma.",
+		"technos": "React, React Router, Sass"
+	},
+	{
+		"id": "argentbank",
+		"title": "ArgentBank",
+		"date": "2023",
+		"description": "Création d'un système d'authentification des utilisateurs en utilisant React pour afficher des informations liées à l'utilisateur et mise en place de vérification (notament le token) via Reduxjs/Toolkit.",
+		"technos": "React, React Router, ReduxJs/Toolkit, Sass"
+	}
+]
