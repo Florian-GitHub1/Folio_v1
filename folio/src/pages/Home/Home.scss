@@ -47,12 +47,3 @@ body {
 body::-webkit-scrollbar {
 	display: none;
 }
-::-moz-selection {
-	/* Code for Firefox */
-	color: $secondary-color;
-	background: $accent-color;
-}
-::selection {
-	color: $secondary-color;
-	background: $accent-color;
-}

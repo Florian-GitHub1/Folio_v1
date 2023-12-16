@@ -4,12 +4,14 @@ import ProjectsData from '../../data/projects.json';
 import './Projects.scss';
 
 function ProjectsList() {
-	const projectsData = ProjectsData.map((project) => {
+	const projectsData = ProjectsData.map((project, index) => {
 		return (
-			<NavLink to={`${project.id}`} key={project.key} className='project'>
-				<h4>{project.title}</h4>
-				<h4>/ {project.date}</h4>
-			</NavLink>
+			<div className='project'>
+				<NavLink to={`${project.id}`} key={index}>
+					<h4>{project.title}</h4>
+					<h4>/ {project.date}</h4>
+				</NavLink>
+			</div>
 		);
 	});
 	return <div className='projects-container'>{projectsData}</div>;

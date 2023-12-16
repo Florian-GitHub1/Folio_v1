@@ -39,17 +39,19 @@
 		flex-direction: column;
 		justify-content: center;
 		.project {
-			padding: 0 4vw;
-			min-height: 90px;
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			letter-spacing: -4px;
-			border-top: 2px solid $primary-color;
-			color: $primary-color;
-			text-decoration: none;
-			p {
-				mix-blend-mode: difference;
+			a {
+				padding: 0 4vw;
+				min-height: 90px;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				letter-spacing: -4px;
+				border-top: 2px solid $primary-color;
+				color: $primary-color;
+				text-decoration: none;
+				h4 {
+					mix-blend-mode: difference;
+				}
 			}
 			&:nth-last-child(1) {
 				border-bottom: 2px solid $primary-color;

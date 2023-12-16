@@ -3,8 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 import { useState } from 'react';
 
-import Infos from '../Infos/Infos';
-
 const Header = () => {
 	const [open, setOpen] = useState(false);
 	const toggleMenu = () => {
@@ -43,25 +41,24 @@ const Header = () => {
 			<div className='nav-overlay' style={{ top: open ? '0' : '-100%' }}>
 				<ul className='nav-links'>
 					<li className='nav-item'>
+						<span className='number'>1</span>
 						<Link className='nav-item-links' to='/#projets' onClick={toggleMenu}>
 							Projets
 						</Link>
-						<div className='nav-item-wrapper'></div>
 					</li>
 					<li className='nav-item'>
+						<span className='number'>2</span>
 						<Link className='nav-item-links' to='/#contact' onClick={toggleMenu}>
 							Contact
 						</Link>
-						<div className='nav-item-wrapper'></div>
 					</li>
 					<li className='nav-item'>
+						<span className='number'>3</span>
 						<Link className='nav-item-links' to='/#apropos' onClick={toggleMenu}>
-							À propos
+							A propos
 						</Link>
-						<div className='nav-item-wrapper'></div>
 					</li>
 				</ul>
-				<Infos />
 			</div>
 		</header>
 	);
