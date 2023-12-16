@@ -11,7 +11,7 @@ function Contact() {
 					</g>
 				</svg>
 				<a href='mailto:floriandouche@gmail.com' className='contact-me'>
-					Contactez <span className='depo'>moi</span>.
+					Me <span className='depo'>Contacter</span>.
 				</a>
 			</div>
 			<Infos />

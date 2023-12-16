@@ -9,7 +9,7 @@ function ProjectsList() {
 			<div className='project'>
 				<NavLink to={`${project.id}`} key={index}>
 					<h4>{project.title}</h4>
-					<h4>/ {project.date}</h4>
+					<h4 className='project-date'>/ {project.date}</h4>
 				</NavLink>
 			</div>
 		);

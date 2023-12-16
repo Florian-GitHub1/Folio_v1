@@ -5,12 +5,17 @@
 	bottom: 40px;
 	a {
 		font-family: 'Studio', sans-serif;
-		font-weight: 100;
+		font-variation-settings: 'wght' 200, 'ital' 0;
 		text-transform: uppercase;
 		color: $primary-color;
 		text-decoration: none;
+		transition: color 0.8s cubic-bezier(0.22, 1, 0.36, 1), font-variation-settings 0.8s cubic-bezier(0.22, 1, 0.36, 1);
 		&:nth-of-type(2) {
-			padding: 0 4vw;
+			margin: 0 4vw;
 		}
+	}
+	a:hover {
+		color: $secondary-color;
+		font-variation-settings: 'wght' 600, 'ital' 6;
 	}
 }

@@ -1,4 +1,5 @@
 @import '../../style//variables';
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,800&display=swap');
 
 *,
 ::after,
@@ -18,13 +19,12 @@
 	font-weight: 100 900;
 	font-display: swap;
 }
+
 @font-face {
-	font-family: 'FrauncesItal';
-	src: url('../../fonts//FrauncesItalicVariableFont.ttf');
-}
-@font-face {
-	font-family: 'Fraunces';
+	font-family: 'FrauncesVar';
 	src: url('../../fonts//FrauncesVariableFont.ttf');
+	font-weight: 100 900;
+	font-display: swap;
 }
 .noise {
 	position: fixed;
@@ -42,7 +42,7 @@ body {
 	overflow-x: hidden;
 }
 body {
-	font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+	font-family: 'FrauncesVar', Arial, Helvetica, sans-serif;
 }
 body::-webkit-scrollbar {
 	display: none;

@@ -65,7 +65,6 @@
 	}
 }
 .nav-overlay {
-	font-family: 'Studio';
 	position: fixed;
 	z-index: 98;
 	width: 100%;
@@ -88,6 +87,7 @@
 			padding: 0 8vw;
 		}
 		.nav-item {
+			font-family: 'Studio';
 			list-style: none;
 			position: relative;
 			width: 100%;
@@ -105,8 +105,12 @@
 				color: $primary-color;
 				text-decoration: none;
 				text-transform: uppercase;
-				font-weight: 900;
+				font-variation-settings: 'wght' 100;
 				font-size: clamp(2.625rem, 0.5179rem + 10.5357vw, 10rem);
+				transition: font-variation-settings 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+			}
+			a:hover {
+				font-variation-settings: 'wght' 900;
 			}
 		}
 	}
