@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/folio_v1/static/css/main.b29d5706.css",
+    "main.js": "/folio_v1/static/js/main.51cad17d.js",
+    "static/media/FrauncesVariableFont.ttf": "/folio_v1/static/media/FrauncesVariableFont.c767db37f6648bd42213.ttf",
+    "static/media/background.webp": "/folio_v1/static/media/background.5e7873ac08e9c5f0b4b7.webp",
+    "static/media/StudioSans.woff2": "/folio_v1/static/media/StudioSans.e2c9528ea9e03e9a2c87.woff2",
+    "static/media/noise.webp": "/folio_v1/static/media/noise.9c61b92b036d0da17299.webp",
+    "index.html": "/folio_v1/index.html",
+    "main.b29d5706.css.map": "/folio_v1/static/css/main.b29d5706.css.map",
+    "main.51cad17d.js.map": "/folio_v1/static/js/main.51cad17d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b29d5706.css",
+    "static/js/main.51cad17d.js"
+  ]
+}
