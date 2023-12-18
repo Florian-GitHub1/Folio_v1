@@ -13,9 +13,9 @@ const App = () => {
 		<Router>
 			<Header />
 			<Routes>
-				<Route path='/' element={<Home />} />
-				<Route path='/:id/*' element={<ProjectView />} />
-				<Route path='/*' element={<Error />} />
+				<Route path='/Folio_v1/' element={<Home />} />
+				<Route path='/Folio_v1/:id' element={<ProjectView />} />
+				<Route path='/Folio_v1/*' element={<Error />} />
 			</Routes>
 		</Router>
 	);

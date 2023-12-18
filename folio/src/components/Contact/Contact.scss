@@ -5,12 +5,12 @@
 	height: 100vh;
 	padding: 0 4vw;
 	display: flex;
-	justify-content: left;
-	align-items: center;
+	justify-content: center;
+	align-items: flex-start;
 	position: relative;
 	@media (max-width: 1140px) {
 		flex-direction: column-reverse;
-		justify-content: center;
+		align-items: center;
 	}
 	@media (max-width: 800px) {
 		padding: 0 8vw;

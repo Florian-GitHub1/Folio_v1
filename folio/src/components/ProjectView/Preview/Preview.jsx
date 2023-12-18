@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, NavLink, useLocation } from 'react-router-dom';
 import projects from '../../../data/projects.json';
 
 import './Preview.scss';
@@ -8,7 +8,8 @@ const Preview = () => {
 	const { id } = useParams();
 	const project = projects.find((project) => project.id === id);
 	const nextproject = projects.find((nextproject) => nextproject.id !== id);
-
+	const location = useLocation();
+	console.log(location);
 	return (
 		<section className='project-preview-content'>
 			<h2 className='preview-title'>Preview</h2>
@@ -19,7 +20,7 @@ const Preview = () => {
 					))}
 				</div>
 			</div>
-			<a className='next-project' href={`${nextproject.id}`}>
+			<NavLink className='next-project' to={`/Folio_v1/${nextproject.id}`}>
 				<div>
 					<h2>{nextproject.title}</h2>
 					<div className='subtitle'>
@@ -31,7 +32,7 @@ const Preview = () => {
 						</svg>
 					</div>
 				</div>
-			</a>
+			</NavLink>
 		</section>
 	);
 };

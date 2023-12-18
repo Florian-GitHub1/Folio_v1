@@ -1,89 +1,94 @@
 @import '../../../style/variables';
 
-.project-header-content {
-	width: 100vw;
-	height: 80vh;
-	background-color: $accent-color;
+section {
 	display: flex;
-	padding: 0 4vw;
-	@media (max-width: 800px) {
-		padding: 0 8vw;
-		height: 100vh;
-	}
-	.project-infos-wrapper {
+	flex-direction: column;
+
+	.project-header-content {
+		width: 100vw;
+		height: 80vh;
+		background-color: $accent-color;
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		position: relative;
+		padding: 0 4vw;
 		@media (max-width: 800px) {
+			padding: 0 8vw;
 			height: 100vh;
 		}
-		.project-infos {
-			.title-desc {
-				width: 80%;
-				@media (max-width: 800px) {
-					width: 100%;
-				}
-				h1 {
-					width: fit-content;
-
-					font-size: clamp(2.8125rem, 1.3304rem + 7.4107vw, 8rem);
-					margin: 0 0 3vw 0;
-					@media (max-width: 800px) {
-						margin: 0 0 6vw 0;
-					}
-					a {
-						display: flex;
-						align-items: baseline;
-						text-decoration: none;
-						border-bottom: 3px solid $primary-color;
-						font-variation-settings: 'wght' 300;
-						transition: font-variation-settings 1.5s cubic-bezier(0.22, 1, 0.36, 1);
-						color: $primary-color;
-						&:hover {
-							font-variation-settings: 'wght' 600;
-						}
-						@media (max-width: 800px) {
-							font-variation-settings: 'wght' 600;
-						}
-					}
-				}
-				p {
-					font-family: 'FrauncesVar', sans-serif;
-					font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
-					font-weight: 200;
-					margin: 0 0 4vw 0;
-					@media (max-width: 800px) {
-						margin: 0 0 6vw 0;
-					}
-				}
+		.project-infos-wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			@media (max-width: 800px) {
+				height: 100vh;
 			}
-			.date-roles-techs {
-				display: flex;
-				div {
-					margin: 0 3vw;
+			.project-infos {
+				.title-desc {
+					width: 80%;
 					@media (max-width: 800px) {
-						margin: 0 0 2vw 0;
+						width: 100%;
 					}
-					h2 {
-						font-weight: 600;
-						font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+					h1 {
+						text-transform: uppercase;
+						width: fit-content;
+						font-size: clamp(2.25rem, 0.6071rem + 8.2143vw, 8rem);
+						margin: 0 0 3vw 0;
+						@media (max-width: 800px) {
+							margin: 0 0 6vw 0;
+						}
+						a {
+							display: flex;
+							align-items: baseline;
+							text-decoration: none;
+							border-bottom: 3px solid $primary-color;
+							font-variation-settings: 'wght' 300;
+							transition: font-variation-settings 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+							color: $primary-color;
+							&:hover {
+								font-variation-settings: 'wght' 600;
+							}
+							@media (max-width: 800px) {
+								font-variation-settings: 'wght' 600;
+							}
+						}
 					}
-					span {
+					p {
+						font-family: 'FrauncesVar', sans-serif;
+						font-size: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
 						font-weight: 200;
-						font-family: 'Studio', sans-serif;
-						font-size: clamp(1rem, 1rem + 0vw, 1rem);
+						margin: 0 0 4vw 0;
+						@media (max-width: 800px) {
+							margin: 0 0 6vw 0;
+						}
 					}
 				}
-				:nth-child(1) {
-					margin: 0 3vw 0 0;
+				.date-roles-techs {
+					display: flex;
+					div {
+						margin: 0 3vw;
+						@media (max-width: 800px) {
+							margin: 0 0 2vw 0;
+						}
+						h2 {
+							font-weight: 600;
+							font-size: clamp(1.25rem, 1.0357rem + 1.0714vw, 2rem);
+						}
+						span {
+							font-weight: 200;
+							font-family: 'Studio', sans-serif;
+							font-size: clamp(1rem, 1rem + 0vw, 1rem);
+						}
+					}
+					:nth-child(1) {
+						margin: 0 3vw 0 0;
+						@media (max-width: 800px) {
+							margin: 0 0 2vw 0;
+						}
+					}
 					@media (max-width: 800px) {
-						margin: 0 0 2vw 0;
+						flex-direction: column;
 					}
-				}
-				@media (max-width: 800px) {
-					flex-direction: column;
 				}
 			}
 		}

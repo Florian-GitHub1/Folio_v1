@@ -51,7 +51,7 @@
 				letter-spacing: -4px;
 				color: $primary-color;
 				text-decoration: none;
-				transition: font-variation-settings 1s 0.1s cubic-bezier(0.22, 1, 0.36, 1);
+				transition: font-variation-settings 1s cubic-bezier(0.22, 1, 0.36, 1);
 				&:hover {
 					font-variation-settings: 'wght' 700;
 				}

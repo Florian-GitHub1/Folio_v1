@@ -4,9 +4,8 @@ import projects from '../../data/projects.json';
 import Error from '../Error/Error';
 
 import HeroProject from '../../components/ProjectView/Hero/HeroProject';
-import Preview from '../../components/ProjectView/Preview/Preview';
-
-import './ProjectView.scss';
+import SmoothScroll from '../../components/smoothScroll';
+import ScrollToTop from '../../components/ScrollToTop';
 
 const ProjectView = () => {
 	const { id } = useParams();
@@ -19,8 +18,10 @@ const ProjectView = () => {
 	return (
 		<>
 			<div className='noise'></div>
-			<HeroProject />
-			<Preview />
+			<SmoothScroll>
+				<HeroProject />
+				<ScrollToTop />
+			</SmoothScroll>
 		</>
 	);
 };
