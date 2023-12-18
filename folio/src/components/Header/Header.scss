@@ -107,10 +107,11 @@
 				text-transform: uppercase;
 				font-variation-settings: 'wght' 100;
 				font-size: clamp(2.625rem, 0.5179rem + 10.5357vw, 10rem);
-				transition: font-variation-settings 1.5s cubic-bezier(0.22, 1, 0.36, 1);
-			}
-			a:hover {
-				font-variation-settings: 'wght' 900;
+				transition: color 1s cubic-bezier(0.22, 1, 0.36, 1), font-variation-settings 1.5s cubic-bezier(0.22, 1, 0.36, 1);
+				&:hover {
+					font-variation-settings: 'wght' 900;
+					color: $secondary-color;
+				}
 			}
 		}
 	}

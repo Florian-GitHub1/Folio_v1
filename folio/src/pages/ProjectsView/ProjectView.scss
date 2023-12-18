@@ -1,18 +1,1 @@
 @import '../../style/variables';
-
-.project-header-content {
-	width: 100vw;
-	height: 100vh;
-	padding: 0 4vw;
-
-	@media (max-width: 800px) {
-		padding: 0 8vw;
-	}
-	.cover img {
-		mix-blend-mode: luminosity;
-		transition: mix-blend-mode 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-	}
-	.cover img:hover {
-		mix-blend-mode: unset;
-	}
-}

@@ -7,14 +7,17 @@
 	border-top: 2px solid $primary-color;
 	border-bottom: 2px solid $primary-color;
 	overflow: hidden;
+	margin: 5vw 0;
 	.interstice-container {
 		white-space: nowrap;
 		padding: 1vw 0;
 		width: max-content;
+		font-family: 'FrauncesVar', sans-serif;
+		font-variation-settings: 'wght' 600;
 		.dot {
 			color: $secondary-color;
 		}
-		span {
+		.interstice-title {
 			font-size: clamp(1.875rem, 1.5536rem + 1.6071vw, 3rem);
 			margin: 0 2vw;
 			text-transform: uppercase;

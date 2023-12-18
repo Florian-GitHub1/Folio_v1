@@ -10,8 +10,8 @@ import Interstice from '../../components/Interstice/Interstice';
 import './Home.scss';
 
 function Home() {
-	const interAbout = 'à propos';
-	const interTechs = 'compétences';
+	const interAbout = 'a propos';
+	const interTechs = 'competences';
 	const interContact = 'me contacter';
 
 	return (

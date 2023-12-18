@@ -4,95 +4,63 @@ function Interstice({ title }) {
 	return (
 		<div className='interstice'>
 			<div className='interstice-container'>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
-					{title}
-					<span className='dot'>.</span>
-				</span>
-				<span>
+				<span className='interstice-title'>
 					{title}
 					<span className='dot'>.</span>
 				</span>

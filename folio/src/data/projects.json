@@ -5,7 +5,9 @@
 		"date": "2023",
 		"description": "Intégration d'un site en 'mobile first' (mobile, tablette puis desktop) qui répertorie les menus de restaurants gastronomiques et mise en place d'animations.",
 		"technos": "HTML, CSS, Sass",
-		"cover": "/static/media/kasa-cover.59e017473437b3d6076d.jpg"
+		"roles": "Développement front-end",
+		"link": "https://florian-github1.github.io/ohmyfood/",
+		"images": ["/static/media/ohmyfood1.b1bc0f34e57ef9a3ff7b.webp", "/static/media/ohmyfood2.f0812001c553b669fcba.webp", "/static/media/ohmyfood3.f5cd35b05eded30fcc69.webp"]
 	},
 	{
 		"id": "kasa",
@@ -13,7 +15,9 @@
 		"date": "2023",
 		"description": "Développement d'une application de location d'appartements à l'aide de React en utilisant les composants, les routes React Router, en suivant les maquettes Figma.",
 		"technos": "React, React Router, Sass",
-		"cover": "/static/media/kasa-cover.59e017473437b3d6076d.jpg"
+		"roles": "Développement front-end",
+		"link": "https://github.com/Florian-GitHub1/Kasa",
+		"images": ["/static/media/kasa1.37a40f1ecc323f72fff5.webp", "/static/media/kasa2.40e3c90547e3c71711e9.webp", "/static/media/kasa3.daf75411607d8cf4f9de.webp"]
 	},
 	{
 		"id": "argentbank",
@@ -21,6 +25,8 @@
 		"date": "2023",
 		"description": "Création d'un système d'authentification des utilisateurs en utilisant React pour afficher des informations liées à l'utilisateur et mise en place de vérification (notament le token) via Reduxjs/Toolkit.",
 		"technos": "React, React Router, ReduxJs/Toolkit, Sass",
-		"cover": "../../assets/background.webp"
+		"roles": "Développement front-end",
+		"link": "https://github.com/Florian-GitHub1/ArgentBank-website",
+		"images": ["/static/media/argentbank1.50e53fc4e4dd9f88cd3c.webp", "/static/media/argentbank2.0ecf84ef42bca6c63f4c.webp", "/static/media/argentbank3.4985409e239724019d6c.webp", "/static/media/argentbank4.f0dc5ac34021292a0df8.webp", "/static/media/argentbank5.77d7d6874c5fbc7eb814.webp"]
 	}
 ]

@@ -3,6 +3,9 @@
 .infos {
 	position: absolute;
 	bottom: 40px;
+	@media (max-width: 800px) {
+		bottom: 20px;
+	}
 	a {
 		font-family: 'Studio', sans-serif;
 		font-variation-settings: 'wght' 200, 'ital' 0;
