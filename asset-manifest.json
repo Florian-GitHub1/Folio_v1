@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Folio_v1/static/css/main.3050edd7.css",
+    "main.css": "/Folio_v1/static/css/main.499ce51e.css",
     "main.js": "/Folio_v1/static/js/main.134d4a4c.js",
     "static/media/CV.pdf": "/Folio_v1/static/media/CV.405e338f605bf46b0768.pdf",
     "static/media/FrauncesVariableFont.ttf": "/Folio_v1/static/media/FrauncesVariableFont.c767db37f6648bd42213.ttf",
@@ -8,11 +8,11 @@
     "static/media/StudioSans.woff2": "/Folio_v1/static/media/StudioSans.e2c9528ea9e03e9a2c87.woff2",
     "static/media/noise.webp": "/Folio_v1/static/media/noise.9c61b92b036d0da17299.webp",
     "index.html": "/Folio_v1/index.html",
-    "main.3050edd7.css.map": "/Folio_v1/static/css/main.3050edd7.css.map",
+    "main.499ce51e.css.map": "/Folio_v1/static/css/main.499ce51e.css.map",
     "main.134d4a4c.js.map": "/Folio_v1/static/js/main.134d4a4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3050edd7.css",
+    "static/css/main.499ce51e.css",
     "static/js/main.134d4a4c.js"
   ]
 }
