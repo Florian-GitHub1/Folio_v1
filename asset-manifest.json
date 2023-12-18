@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Folio_v1/static/css/main.04bfc547.css",
-    "main.js": "/Folio_v1/static/js/main.51cad17d.js",
+    "main.js": "/Folio_v1/static/js/main.e42b8068.js",
     "static/media/FrauncesVariableFont.ttf": "/Folio_v1/static/media/FrauncesVariableFont.c767db37f6648bd42213.ttf",
     "static/media/background.webp": "/Folio_v1/static/media/background.5e7873ac08e9c5f0b4b7.webp",
     "static/media/StudioSans.woff2": "/Folio_v1/static/media/StudioSans.e2c9528ea9e03e9a2c87.woff2",
     "static/media/noise.webp": "/Folio_v1/static/media/noise.9c61b92b036d0da17299.webp",
     "index.html": "/Folio_v1/index.html",
     "main.04bfc547.css.map": "/Folio_v1/static/css/main.04bfc547.css.map",
-    "main.51cad17d.js.map": "/Folio_v1/static/js/main.51cad17d.js.map"
+    "main.e42b8068.js.map": "/Folio_v1/static/js/main.e42b8068.js.map"
   },
   "entrypoints": [
     "static/css/main.04bfc547.css",
-    "static/js/main.51cad17d.js"
+    "static/js/main.e42b8068.js"
   ]
 }
