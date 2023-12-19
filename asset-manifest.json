@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Folio_v1/static/css/main.44d4c894.css",
-    "main.js": "/Folio_v1/static/js/main.1ab72ade.js",
+    "main.css": "/Folio_v1/static/css/main.d313574f.css",
+    "main.js": "/Folio_v1/static/js/main.1354b93a.js",
     "static/media/CV.pdf": "/Folio_v1/static/media/CV.1f15b0ef26e404bca33e.pdf",
     "static/media/FrauncesVariableFont.ttf": "/Folio_v1/static/media/FrauncesVariableFont.c767db37f6648bd42213.ttf",
     "static/media/background.webp": "/Folio_v1/static/media/background.5e7873ac08e9c5f0b4b7.webp",
     "static/media/StudioSans.woff2": "/Folio_v1/static/media/StudioSans.e2c9528ea9e03e9a2c87.woff2",
     "static/media/noise.webp": "/Folio_v1/static/media/noise.9c61b92b036d0da17299.webp",
     "index.html": "/Folio_v1/index.html",
-    "main.44d4c894.css.map": "/Folio_v1/static/css/main.44d4c894.css.map",
-    "main.1ab72ade.js.map": "/Folio_v1/static/js/main.1ab72ade.js.map"
+    "main.d313574f.css.map": "/Folio_v1/static/css/main.d313574f.css.map",
+    "main.1354b93a.js.map": "/Folio_v1/static/js/main.1354b93a.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d4c894.css",
-    "static/js/main.1ab72ade.js"
+    "static/css/main.d313574f.css",
+    "static/js/main.1354b93a.js"
   ]
 }
