@@ -3,7 +3,6 @@
 section {
 	display: flex;
 	flex-direction: column;
-
 	.project-header-content {
 		width: 100vw;
 		height: 80vh;
@@ -80,7 +79,7 @@ section {
 							font-size: clamp(1rem, 1rem + 0vw, 1rem);
 						}
 					}
-					:nth-child(1) {
+					.project-date {
 						margin: 0 3vw 0 0;
 						@media (max-width: 800px) {
 							margin: 0 0 2vw 0;

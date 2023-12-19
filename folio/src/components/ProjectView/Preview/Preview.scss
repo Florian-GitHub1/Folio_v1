@@ -48,7 +48,6 @@
 		height: 100vh;
 		text-decoration: none;
 		color: $background;
-
 		text-transform: uppercase;
 		div {
 			display: flex;
@@ -56,6 +55,7 @@
 			justify-content: center;
 			flex-direction: column;
 			h2 {
+				transition: font-variation-settings 1s cubic-bezier(0.22, 1, 0.36, 1);
 				font-variation-settings: 'wght' 300;
 				font-size: clamp(2.8125rem, 0.1875rem + 13.125vw, 12rem);
 			}
@@ -72,6 +72,9 @@
 					width: clamp(1.25rem, 0.75rem + 2.5vw, 3rem);
 					height: clamp(1.25rem, 0.75rem + 2.5vw, 3rem);
 				}
+			}
+			&:hover h2 {
+				font-variation-settings: 'wght' 500;
 			}
 		}
 	}

@@ -6,27 +6,27 @@
 		"description": "Intégration d'un site en 'mobile first' (mobile, tablette puis desktop) qui répertorie les menus de restaurants gastronomiques et mise en place d'animations.",
 		"technos": "HTML, CSS, Sass",
 		"roles": "Développement front-end",
-		"link": "https://florian-github1.github.io/ohmyfood/",
-		"images": ["https://i.postimg.cc/zDK7SGz7/ohmyfood1.webp", "https://i.postimg.cc/90C7BVbg/ohmyfood2.webp", "https://i.postimg.cc/YSFLKjyy/ohmyfood3.webp"]
+		"link": "https://github.com/Florian-GitHub1/ohmyfood",
+		"images": ["https://i.postimg.cc/JzGJ8MZs/ohmyfood1.webp", "https://i.postimg.cc/nhDzTzqG/ohmyfood2.webp", "https://i.postimg.cc/L5gKRq9y/ohmyfood3.webp"]
 	},
 	{
 		"id": "kasa-project",
 		"title": "Kasa",
 		"date": "2023",
-		"description": "Développement d'une application de location d'appartements à l'aide de React en utilisant les composants, les routes React Router, en suivant les maquettes Figma.",
+		"description": "Développement d'une application de location d'appartements à l'aide de React en utilisant les composants, les routes React Router, en suivant une maquette Figma.",
 		"technos": "React, React Router, Sass",
 		"roles": "Développement front-end",
 		"link": "https://github.com/Florian-GitHub1/Kasa",
-		"images": ["https://i.postimg.cc/m20bxVfB/kasa1.webp", "https://i.postimg.cc/t4j4ZDrD/kasa2.webp", "https://i.postimg.cc/dQCF2rZf/kasa3.webp"]
+		"images": ["https://i.postimg.cc/3w6QqC7y/kasa1.webp", "https://i.postimg.cc/sxjm9q85/kasa2.webp", "https://i.postimg.cc/N0RxhQv1/kasa3.webp"]
 	},
 	{
 		"id": "argentbank-project",
 		"title": "ArgentBank",
 		"date": "2023",
-		"description": "Création d'un système d'authentification des utilisateurs en utilisant React pour afficher des informations liées à l'utilisateur et mise en place de vérification (notament le token) via Reduxjs/Toolkit.",
+		"description": "Création d'un système d'authentification des utilisateurs en utilisant React pour afficher des informations liées à celui-ci et mise en place de vérifications (notamment le token) via Reduxjs/Toolkit.",
 		"technos": "React, React Router, ReduxJs/Toolkit, Sass",
 		"roles": "Développement front-end",
 		"link": "https://github.com/Florian-GitHub1/ArgentBank-website",
-		"images": ["https://i.postimg.cc/P5r0RwNT/argentbank1.webp", "https://i.postimg.cc/25dvLVFL/argentbank2.webp", "https://i.postimg.cc/bwcs0qvx/argentbank3.webp", "https://i.postimg.cc/Wz7TMcYn/argentbank4.webp", "https://i.postimg.cc/Gm6wTphR/argentbank5.webp"]
+		"images": ["https://i.postimg.cc/QMqWkCrn/argentbank1.webp", "https://i.postimg.cc/rwXdBxVP/argentbank2.webp", "https://i.postimg.cc/MZnmx0w6/argentbank3.webp", "https://i.postimg.cc/W113L8RS/argentbank4.webp", "https://i.postimg.cc/ryGFD3MQ/argentbank5.webp"]
 	}
 ]
