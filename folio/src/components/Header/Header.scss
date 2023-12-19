@@ -54,11 +54,79 @@
 		}
 		.menu-toggle {
 			.hamBox {
+				transition: transform 0.4s cubic-bezier(0.28, 0.51, 0.96, 1.22);
 				cursor: pointer;
 				svg {
+					transition: all 0.5s cubic-bezier(0, 0, 0.54, 1.12);
 					fill: none;
 					stroke: $primary-color;
 					stroke-width: 2px;
+					.circle1 {
+						transform-origin: 0px 0px;
+						transform: translate(0px, -24px);
+						opacity: 0;
+					}
+					.circle1-open {
+						transform: translate(0px, -24px);
+						opacity: 0;
+					}
+					.circle2 {
+						transform-origin: 0px 0px;
+						transform: translate(24px, 0px);
+						opacity: 0;
+					}
+					.circle2-open {
+						transform: translate(24px, 0px);
+						opacity: 0;
+					}
+					.circle3 {
+						transform-origin: 0px 0px;
+						transform: translate(0px, 24px);
+						opacity: 0;
+					}
+					.circle3-open {
+						transform: translate(0px, 24px);
+						opacity: 0;
+					}
+					.circle4 {
+						transform-origin: 0px 0px;
+						transform: translate(-24px, 0px);
+						opacity: 0;
+					}
+					.circle4-open {
+						transform: translate(-24px, 0px);
+						opacity: 0;
+					}
+					.rect1 {
+						transform-origin: 0px 0px;
+						transform: translate(-12px, 0px);
+						opacity: 1;
+						width: 30px;
+					}
+					.rect1-open {
+						transform-origin: 0px 0px;
+						transform: translate(-16.97px, 0px);
+						opacity: 1;
+						width: 39.94px;
+					}
+					.rect2 {
+						transform-origin: 0px 0px;
+						transform: translate(0px, -12px);
+						opacity: 1;
+						height: 30px;
+					}
+					.rect2-open {
+						transform-origin: 0px 0px;
+						transform: translate(0px, -16.97px);
+						opacity: 1;
+						height: 39.94px;
+					}
+					circle {
+						transition: opacity 0.2s, transform 0.3s cubic-bezier(0, 0, 0.54, 1.12);
+					}
+					rect {
+						transition: all 0.3s cubic-bezier(0, 0, 0.54, 1.12);
+					}
 				}
 			}
 		}
