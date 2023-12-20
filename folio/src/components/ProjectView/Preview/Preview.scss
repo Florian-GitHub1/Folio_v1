@@ -3,13 +3,13 @@
 .project-preview-content {
 	display: flex;
 	justify-content: center;
-	padding: 0 4vw;
+	padding: $padding-desktop;
 	margin: 6vw 0 0 0;
 	flex-direction: column;
 	align-items: center;
 	width: 100vw;
 	@media (max-width: 800px) {
-		padding: 0 8vw;
+		padding: $padding-mobile;
 	}
 	.preview-title {
 		text-align: center;

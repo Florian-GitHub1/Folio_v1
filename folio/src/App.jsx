@@ -6,8 +6,6 @@ import Home from './pages/Home/Home';
 import ProjectView from './pages/ProjectsView/ProjectView';
 import Error from './pages/Error/Error';
 
-import './App.scss';
-
 const App = () => {
 	return (
 		<Router>

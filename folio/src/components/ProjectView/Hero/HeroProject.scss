@@ -8,9 +8,9 @@ section {
 		height: 80vh;
 		background-color: $accent-color;
 		display: flex;
-		padding: 0 4vw;
+		padding: $padding-desktop;
 		@media (max-width: 800px) {
-			padding: 0 8vw;
+			padding: $padding-mobile;
 			height: 100vh;
 		}
 		.project-infos-wrapper {

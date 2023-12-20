@@ -9,7 +9,6 @@
 	background-position: center;
 	display: flex;
 	justify-content: center;
-
 	.project-preview-container {
 		display: flex;
 		flex-direction: column;
@@ -17,7 +16,6 @@
 		align-items: center;
 		mix-blend-mode: difference;
 		text-transform: uppercase;
-		padding: 0 8vw;
 		.project-preview-title1 {
 			font-weight: 800;
 			font-size: clamp(3rem, 0.1429rem + 14.2857vw, 13rem);
@@ -43,7 +41,7 @@
 			z-index: 1;
 			a {
 				font-variation-settings: 'wght' 200;
-				padding: 0 4vw;
+				padding: $padding-desktop;
 				min-height: 90px;
 				display: flex;
 				justify-content: space-between;
@@ -75,7 +73,7 @@
 					mix-blend-mode: difference;
 				}
 				@media (max-width: 800px) {
-					padding: 0 8vw;
+					padding: $padding-mobile;
 					align-items: center;
 				}
 			}

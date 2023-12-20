@@ -3,7 +3,7 @@
 .contact-container {
 	width: 100vw;
 	height: 100vh;
-	padding: 0 4vw;
+	padding: $padding-desktop;
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
@@ -13,7 +13,7 @@
 		align-items: center;
 	}
 	@media (max-width: 800px) {
-		padding: 0 8vw;
+		padding: $padding-mobile;
 		text-align: center;
 	}
 	.contact {
